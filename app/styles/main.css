@@ -1,15 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,900');
-
 
 html, body {
-  font-family: 'Source Code Pro', monospace;
-  font-weight:300;
   height: 100%;
 }
 
 .name{
   font-weight: 900;
   color: #fff;
+  display: inline;
+  padding-right: 20px;
+  margin-right: 50px;
+}
+
+.new-room-btn {
+  color: #fff;
+  background-color: #a239ca;
+  margin-bottom: 15px;
+  border-radius: 99px;
+}
+
+.new-room-btn:hover {
+  background-color: #4717f6;
 }
 
 .room-nav h3 {

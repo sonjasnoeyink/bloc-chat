@@ -1,6 +1,6 @@
 <div class="room-nav">
     <h1 class="name">Bloc Chat</h1>
-    <hr />
+    <button type="button" class="btn new-room-btn" ng-click="home.newRoom()">+</button>
     <div ng-repeat="room in home.rooms">
         <h3>{{ room.$value }}</h3>
     </div>
