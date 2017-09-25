@@ -3,12 +3,11 @@
       this.rooms = Room.all;
 
       this.newRoom = function() {
-             $uibModal.open({
+              $uibModal.open({
                  templateUrl: '/templates/modal.html',
-                 size: 'sm',
                  controller: 'ModalCtrl as modal'
              });
-      }
+      };
 
     }
 
